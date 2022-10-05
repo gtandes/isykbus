@@ -1,0 +1,30 @@
+/* body {
+    padding-top: 20px;
+  }
+   */
+
+.invalid-feedback {
+    display: block !important;
+}
+
+a{
+    color: #b28c8c;
+}
+
+.container{
+    /* position: absolute; */
+    top: -0.5rem;
+}
+
+#customCheck1{
+    height: 30px;
+    width: 30px;
+    box-shadow: 1px 1px 5px 1px #ccc;
+    margin-top: 1rem;
+}
+
+@media screen and (max-width:690px) {
+    .btn{
+        width: 100%;
+    }
+}

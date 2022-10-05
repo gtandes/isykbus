@@ -1,0 +1,54 @@
+.bartholetContainer{
+    /* display: flex;
+    flex-direction: column; */
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem 0 2rem 0;
+}
+
+h1.homeHeader{
+ color: #b28c8c;
+}
+
+hr{
+    width: 7.5vw;
+    height: 3rem;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.bartholetItem{
+    /* margin: 0 1rem 3rem 1rem; */
+    margin-bottom: 3rem;   
+}
+
+/* .bartholetItem span{
+    font-size: 1rem;
+} */
+
+.bartholetItem img{
+    /* height: 50%; */
+    width: 100%;
+    margin-bottom: 1.5rem;
+ }
+
+.homeRow{
+    text-align: center;
+    justify-content: center;
+}
+
+.rowItems{
+    padding: 1rem 2rem;
+}
+
+/* .homeRow img{
+    border-radius: 50%;
+    height: 40%;
+    width: 70%;
+    margin-bottom: 1.5rem;
+} */
+
+h4{
+    margin-bottom: 1.5rem;
+}

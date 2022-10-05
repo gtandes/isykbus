@@ -1,0 +1,319 @@
+.homeCarouselContainer{
+    background-image: linear-gradient(to right bottom, rgba(255,255,255,0.8),rgba(255,255,255,0.6));
+    height: 100%;
+    background-size: cover;
+    background-position: top;
+}
+
+.homeCarousel{
+    top: -5rem; 
+    z-index: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.homeCarouselItem{
+    height: 85vh;
+}
+
+.carouselHeader{
+    position:sticky;
+    color: #383838;
+    transform: translateY(-400%);
+    font-size: 4.1rem;
+    text-shadow: 2px 2px #fff;
+}
+
+/* width-dependent media screens */
+@media screen and (max-width: 1200px) {
+    .homeCarouselContainer{
+        height: 100%;
+    }
+
+    .homeCarousel{
+        height: 100%;
+    }
+
+    .homeCarouselItem{
+       height: 80vh;
+       width: 100%;
+
+       /* https://github.com/react-bootstrap/react-bootstrap/issues/5143 */
+       opacity: 0;
+       top: 0;
+       left: 0;
+       display: block;
+       position: absolute;
+    }
+
+    .homeCarouselItem:first-of-type {
+        position: relative;
+    }
+
+    .carouselHeader{
+        position: sticky;
+        transform: translateY(-290%);
+        /* font-size: 5rem; */
+    }
+}
+
+/* width-dependent media screens */
+@media screen and (max-width: 1024px) {
+    .homeCarouselContainer{
+        height: 80vh;
+    }
+
+    .homeCarousel{
+        height: 80%;
+    }
+
+    .homeCarouselItem{
+       height: 80vh;
+       width: 100%;
+
+       /* https://github.com/react-bootstrap/react-bootstrap/issues/5143 */
+       opacity: 0;
+       top: 0;
+       left: 0;
+       display: block;
+       position: absolute;
+    }
+
+    .homeCarouselItem:first-of-type {
+        position: relative;
+    }
+
+    .carouselHeader{
+        position: sticky;
+        transform: translateY(-250%);
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .homeCarouselContainer{
+        height: 60vh;
+    }
+
+    .homeCarousel{
+        height: 85%;
+    }
+
+    .homeCarouselItem{
+       height: 60vh;
+       width: 100%;
+
+       /* https://github.com/react-bootstrap/react-bootstrap/issues/5143 */
+       opacity: 0;
+       top: 0;
+       left: 0;
+       display: block;
+       position: absolute;
+    }
+
+    .homeCarouselItem:first-of-type {
+        position: relative;
+    }
+
+    .carouselHeader{
+        position: sticky;
+        transform: translateY(-250%);
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .homeCarouselContainer{
+       height: 60vh;
+    }
+
+    .homeCarousel{
+       height: 105%;
+    }
+
+    .homeCarouselItem{
+       height: 70vh;
+       width: auto;
+
+       /* https://github.com/react-bootstrap/react-bootstrap/issues/5143 */
+       opacity: 0;
+       top: 0;
+       left: 0;
+       display: block;
+       position: absolute;
+    }
+
+    .homeCarouselItem:first-of-type {
+        position: relative;
+    }
+
+    .carouselHeader{
+        position: sticky;
+        transform: translate(-35.5%,-400%);
+        font-size: 2.75rem;
+    }
+}
+
+
+
+/* height-dependent media screens */
+@media screen and (max-width:1200px) and (max-height:480px){
+    .homeCarouselContainer{
+        height: 100vh;
+    }
+
+    .homeCarousel{
+        height: 110%;
+    }
+
+    .homeCarouselItem{
+       height: 110vh;
+       width: 100%;
+
+       /* https://github.com/react-bootstrap/react-bootstrap/issues/5143 */
+       opacity: 0;
+       top: 0;
+       left: 0;
+       display: block;
+       position: absolute;
+    }
+
+    .homeCarouselItem:first-of-type {
+        position: relative;
+    }
+
+    .carouselHeader{
+        position: sticky;
+        transform: translateY(-200%);
+        font-size: 2.25rem;
+    }
+}
+
+@media screen and (max-width:1024px) and (max-height:480px){
+    .homeCarouselContainer{
+        height: 100vh;
+    }
+
+    .homeCarousel{
+        height: 110%;
+    }
+
+    .homeCarouselItem{
+       height: 110vh;
+       width: 100%;
+
+       /* https://github.com/react-bootstrap/react-bootstrap/issues/5143 */
+       opacity: 0;
+       top: 0;
+       left: 0;
+       display: block;
+       position: absolute;
+    }
+
+    .homeCarouselItem:first-of-type {
+        position: relative;
+    }
+
+    .carouselHeader{
+        position: sticky;
+        transform: translateY(-200%);
+        font-size: 2.25rem;
+    }
+}
+
+@media screen and (max-width:768px) and (max-height:480px){
+    .homeCarouselContainer{
+        height: 100vh;
+    }
+
+    .homeCarousel{
+        height: 100%;
+    }
+
+    .homeCarouselItem{
+       height: 110vh;
+       width: 100%;
+
+       /* https://github.com/react-bootstrap/react-bootstrap/issues/5143 */
+       opacity: 0;
+       top: 0;
+       left: 0;
+       display: block;
+       position: absolute;
+    }
+
+    .homeCarouselItem:first-of-type {
+        position: relative;
+    }
+
+    .carouselHeader{
+        position: sticky;
+        transform: translateY(-200%);
+        font-size: 2.25rem;
+    }
+}
+
+@media screen and (max-width:768px) and (max-height:480px){
+    .homeCarouselContainer{
+        height: 80vh;
+    }
+
+    .homeCarousel{
+        height: 115%;
+    }
+
+    .homeCarouselItem{
+       height: 100vh;
+       width: 100%;
+
+       /* https://github.com/react-bootstrap/react-bootstrap/issues/5143 */
+       opacity: 0;
+       top: 0;
+       left: 0;
+       display: block;
+       position: absolute;
+    }
+
+    .homeCarouselItem:first-of-type {
+        position: relative;
+    }
+
+    .carouselHeader{
+        position: sticky;
+        transform: translateY(-80%);
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width:480px) and (max-height:480px){
+    .homeCarouselContainer{
+        height: 50vh;
+    }
+
+    .homeCarousel{
+        height: 100%;
+    }
+
+    .homeCarouselItem{
+       height: 50vh;
+       width: 100%;
+
+       /* https://github.com/react-bootstrap/react-bootstrap/issues/5143 */
+       opacity: 0;
+       top: 0;
+       left: 0;
+       display: block;
+       position: absolute;
+    }
+
+    .homeCarouselItem:first-of-type {
+        position: relative;
+    }
+
+    .carouselHeader{
+        position: sticky;
+        transform: translateY(40%);
+        font-size: 2rem;
+    }
+}

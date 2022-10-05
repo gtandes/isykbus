@@ -1,0 +1,161 @@
+.homePageTestimonials{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: -1vh;
+}
+
+.testimonialContainer{
+    max-width: 100%;
+    margin: 0 10vw 4vh 10vw;
+}
+
+h1.homeHeader{
+ color: #b28c8c;
+ font-size: 2.7rem;
+ /* letter-spacing: 0.1rem; */
+}
+
+hr{
+    width: 7.5vw;
+    height: 3rem;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+span{
+    font-size: 1rem;
+}
+
+.homeRow{
+    text-align: center;
+    justify-content: center;
+}
+
+.rowItems{
+    padding: 1rem 2vw;
+    margin-bottom: 5vh;
+}
+
+.homeRow img{
+    border-radius: 50%;
+    height: auto;
+    width: 60%;
+    margin-bottom: 1.5rem;
+}
+
+h4{
+    padding-bottom: 1.5rem;
+}
+
+/* width-dependent */
+@media screen and (max-width:1200px) {
+    .homePageTestimonials{
+        margin-top: -3vh;
+    }
+
+    h1.homeHeader{
+        font-size: 2.2rem;
+    }
+
+    .testimonialContainer{
+        margin-bottom: 0vh;
+    }
+
+    .homeRow img{
+        height: auto;
+        width: 90%;
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .homePageTestimonials{
+        margin-top: -15vh;
+    }
+
+    .testimonialContainer{
+        margin-bottom: 0vh;
+    }
+
+    .homeRow img{
+        height: auto;
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width:768px) { 
+    .homePageTestimonials{
+        margin-top: -15vh;
+    }
+
+    h1.homeHeader{
+        font-size: 2.25rem;
+        line-height: 1.5;
+        padding: 0 3rem;
+    }
+
+    .homeRow img{
+        height: auto;
+        width: 90%;
+        margin-bottom: 1rem;
+    }
+    
+    hr{
+        min-width: 3rem;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .homePageTestimonials{
+        margin-top: -5vh;
+    }
+
+    .testimonialContainer{
+        margin-bottom: 0vh;
+    }
+
+    h1.homeHeader{
+        font-size: 1.75rem;
+        line-height: 1.5;
+        padding: 0 5vw;
+    }
+
+    .homeRow img{
+        height: 25%;
+        width: 65%;
+        margin-bottom: 1rem;
+    }
+    
+    hr{
+        min-width: 3rem;
+    }
+}
+
+
+/* height-dependent media screens */
+@media screen and (max-height:480px){
+    .homePageTestimonials{
+        margin-top: 0vh;
+    }
+}
+
+@media screen and (max-width:1200px) and (max-height:480px){
+    .homePageTestimonials{
+        margin-top: 6vh;
+    }
+}
+
+
+@media screen and (max-width:1024px) and (max-height:480px){
+    .homePageTestimonials{
+        margin-top: 5vh;
+    }
+}
+
+@media screen and (max-width:768px) and (max-height:480px){
+    .homePageTestimonials{
+        margin-top: 5vh;
+    }
+}
